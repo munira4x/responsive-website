@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+}
+.header{
+  height: 100vh;
+}
+.navbar-style{
+  box-shadow: 0 5px 10px #efefef;
+  text-transform: uppercase;
+}
+.logo{
+  height: 50px;
+  padding: 2px 10px;
+}
+.icon-bar{
+  background: darkgreen;
+}
+li a{
+  color: #333;
+}
+.big-text{
+  font-size: 52px;
+  margin: 20px 0 ;
+  color: darkgreen;
+}
+a.btn
+{
+  margin: 30px 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+}
+a.btn-first{
+  background-color: darkgreen;
+  color: #fff;
+}
+
+a.btn-second{
+  background: transparent;
+ border: 1px solid darkgreen;
+ color: #333;
+}
+
+a.btn:hover{
+  background: darkgreen;
+  border: none;
+  color: #fff;
+  box-shadow: 5px 5px 10px #999;
+  transition: 0.3s;
+}
+
+.banner-info , .banner-image{
+  margin: 50px 0;
+}
+.img-responsive{
+  margin:  0px 80px;
+}
